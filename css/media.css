@@ -164,9 +164,11 @@
   }
   .menu-arrow {
     top: 2px;
+    content: url("/img/more.svg");
   }
   .menu-arrow._active::after {
     transform: rotate(360deg);
+    content: url("/img/more.svg");
   }
   .menu-arrow::after {
     position: absolute;
@@ -218,15 +220,17 @@
   }
   .why-points {
     text-align: center;
-    margin: 25px 15px;
+    margin: 0px;
+    padding: 0px;
   }
   .point-main {
     text-align: left;
-    width: 350px;
+    max-width: 312px;
   }
+
   .why-point-p {
     text-align: left;
-    max-width: 350px;
+    max-width: 328px;
   }
   .who-makes {
     margin-bottom: 100px;
