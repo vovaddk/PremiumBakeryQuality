@@ -186,7 +186,8 @@
     top: 2px;
   }
   .menu-arrow._active::after {
-    transform: rotate(0);
+    /* transform: rotate(360deg); */
+    rotate: 90deg;
   }
   .menu-arrow::after {
     position: absolute;

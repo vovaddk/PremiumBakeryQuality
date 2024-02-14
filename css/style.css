@@ -141,7 +141,7 @@ body._lock {
 }
 body.mouse .menu-arrow:hover::after {
   transition: all 0.3s;
-  /* rotate: 90 deg; */
+  /* rotate: 180deg; */
 }
 body.mouse .menu-arrow:hover .sublink {
   display: block;
