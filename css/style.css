@@ -131,7 +131,7 @@ body._lock {
   cursor: pointer;
 }
 .menu-arrow::after {
-  content: url("/img/more.svg");
+  content: url("../img/more.svg");
   cursor: pointer;
   display: inline-block;
 }
@@ -155,6 +155,7 @@ body.mouse .menu-arrow:hover .sublink {
   display: none;
   padding: 14px;
   z-index: 15;
+  animation: example 1s ease-in-out;
 }
 .sublink li {
   background: #ffff;
@@ -309,6 +310,9 @@ body.mouse .menu-arrow:hover .sublink {
   font-size: 24px;
   line-height: 36px;
   color: #ff8126;
+  font-family: "Poppins";
+  font-style: normal;
+  text-indent: 5px;
 }
 .full-price {
   font-weight: 400;

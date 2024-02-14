@@ -1,3 +1,23 @@
+@-webkit-keyframes example {
+  0% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes example {
+  0% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
 @media only screen and (max-width: 1100px) {
   .title,
   .span-decor {
@@ -164,11 +184,9 @@
   }
   .menu-arrow {
     top: 2px;
-    content: url("/img/more.svg");
   }
   .menu-arrow._active::after {
     transform: rotate(360deg);
-    content: url("/img/more.svg");
   }
   .menu-arrow::after {
     position: absolute;
@@ -232,6 +250,12 @@
     text-align: left;
     max-width: 328px;
   }
+  .why-points:last-child {
+    padding-bottom: 100px;
+  }
+  .why-points-icon {
+    margin-top: 50px;
+  }
   .who-makes {
     margin-bottom: 100px;
     display: block;
@@ -282,7 +306,8 @@
     margin: 0 auto;
   }
   .inst {
-    margin-bottom: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .inst-title {
     margin-bottom: 30px;
@@ -297,7 +322,9 @@
     width: 220px !important;
     height: 220px !important;
   }
-
+  .insta-slides {
+    max-height: 415px;
+  }
   .tell-friend {
     height: 420px;
   }
@@ -397,9 +424,6 @@
     max-width: 270px;
     max-height: 270px;
   }
-  .banner-cont {
-    margin: 0;
-  }
   .banner {
     margin: 0;
   }
@@ -424,6 +448,9 @@
     line-height: 15px;
     transition: all 0.3s ease;
   }
+  .warning-content {
+    justify-content: start;
+  }
 }
 
 @media only screen and (min-width: 300px) {
@@ -443,11 +470,16 @@
 }
 @media screen and (min-width: 1279px) {
   .offers-card {
-    width: 270px;
-    min-width: 270px;
+    width: 270px !important;
+    height: 332px !important;
   }
   .offers-card-img img {
-    min-width: 270px;
+    width: 270px !important;
+    height: 332px !important;
+  }
+  .offers-card-img {
+    width: 270px !important;
+    height: 332px !important;
   }
 }
 @media only screen and (min-width: 1379px) {
