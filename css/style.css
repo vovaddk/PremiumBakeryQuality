@@ -40,8 +40,6 @@ button:hover,
 .surprise-s-rigth button:hover {
   background: #d6610e;
   transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   cursor: pointer;
 }
 body._lock {
@@ -141,12 +139,13 @@ body._lock {
 }
 body.mouse .menu-arrow:hover::after {
   transition: all 0.3s;
-  /* rotate: 180deg; */
+  rotate: 180deg;
 }
 body.mouse .menu-arrow:hover .sublink {
   display: block;
 }
 .menu-arrow._active::after {
+  transform: rotate(-180deg);
   transition: all 0.3s;
 }
 .sublink {
@@ -265,33 +264,20 @@ body.mouse .menu-arrow:hover .sublink {
   margin-bottom: 40px;
 }
 .latest-offers-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin: -15px -10px;
 }
 .offers-card {
   background: #f7f5f0;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   width: 270px;
   min-height: 332px;
   margin: 15px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 .offers-card-img {
