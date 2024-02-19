@@ -159,6 +159,7 @@
   color: black;
 }
 
-.slick-list {
-  max-width: 3500px;
+.slick-list.draggable {
+  max-height: 300px;
+  margin-bottom: 90px;
 }

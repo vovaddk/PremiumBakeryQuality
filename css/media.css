@@ -298,12 +298,12 @@
     overflow: hidden;
   }
   .inst-slide {
-    max-width: 260px !important;
-    max-height: 260px !important;
+    width: 260px !important;
+    height: 260px !important;
   }
   .inst-slide-box img {
-    max-width: 220px !important;
-    max-height: 220px !important;
+    width: 220px !important;
+    height: 220px !important;
   }
   .insta-slides {
     max-height: 415px;
@@ -433,18 +433,6 @@
   }
   .warning-content {
     justify-content: start;
-  }
-  .inst-slide {
-    width: 270px !important;
-    height: 260px !important;
-  }
-  .inst-slide-box img {
-    width: 220px !important;
-    height: 220px !important;
-  }
-
-  .insta-slides {
-    max-height: 300px;
   }
 }
 
